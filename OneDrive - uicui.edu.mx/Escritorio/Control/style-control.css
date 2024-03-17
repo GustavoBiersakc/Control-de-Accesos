@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+img{
+    box-sizing: border-box;
+    position: absolute;
+    width: 697px;
+    height: 145px;
+    left: -3px;
+    top: 1px;
+    mix-blend-mode: normal;
+    box-shadow: inset 0px 4px 4px rgba(255, 255, 255, 0);
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("nvo-nivel-edif-psico-09102012-10.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper {
+    width: 200;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,2);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.996);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 100px;
+
+}
+
+.wrapper .input-box{
+    position: relative;
+    width: 40%;
+    height: 50px;
+    margin: 20px 0;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    border:  none;
+    outline: none;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #000000;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder{
+    color: #000000;
+}
+
+.wrapper .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+
+.remember-forgot label input{
+    accent-color: #fff;
+    margin-right: 3px;
+}
+
+.remember-forgot a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+
+.wrapper .btn{
+    width: 50%;
+    height: 30px;
+    background: #0509ee;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 15px;
+    color: #fffdfd;
+    font-weight: 60;
+}
+.wrapper .button{
+    position: relative;
+    width: 50%;
+    height: 30px;
+    right: -450px;
+    top: -30px;
+    background: #0509ee;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 15px;
+    color: #fffdfd;
+    font-weight: 60;
+}
+
+.wrapper .register-link{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.register-link p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link p a :hover{
+    text-decoration: underline;
+
+}
+
+.wrapper .p{
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper .file{
+    position: relative;
+    top: -300px;
+    right: -600px;
+}
