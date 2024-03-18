@@ -15,6 +15,22 @@ img{
     box-shadow: inset 0px 4px 4px rgba(255, 255, 255, 0);
 }
 
+form > div{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+form img{
+    top: 150px;
+    left: 450px;
+    width: 200px;
+    height: 200px;
+    border-radius: 5%;
+    border: 1px solid #aaa;
+}
+
 body{
     display: flex;
     justify-content: center;
@@ -40,7 +56,7 @@ body{
 .wrapper .input-box{
     position: relative;
     width: 40%;
-    height: 50px;
+    height: 40px;
     margin: 20px 0;
 }
 
@@ -99,7 +115,7 @@ body{
     position: relative;
     width: 50%;
     height: 30px;
-    right: -450px;
+    right: -350px;
     top: -30px;
     background: #0509ee;
     border: none;
@@ -137,5 +153,5 @@ body{
 .wrapper .file{
     position: relative;
     top: -300px;
-    right: -600px;
+    right: -350px;
 }

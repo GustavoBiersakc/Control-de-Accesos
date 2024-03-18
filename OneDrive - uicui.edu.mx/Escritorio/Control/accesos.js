@@ -1,18 +1,13 @@
-let mysql = require("mysql");
-
-let conexion = mysql.createConnection({
-    host: "localhost",
-    database: "accesos",
-    user: "root",
-    password: ""
-});
-
-conexion.connect(function(err){
-    if(err){
-        throw err;
-    }else{
-        console.log("conexión exitosa")
+const file = document.getElementById('myfile');
+const img = document.getElementById('img');
+file.addEventListener('change', e => {
+    if(e.target.files[0]){
+    const reader = new FileReader();
+    reader.onload = function (e){
+        img.src = e.target.result;
     }
-});
-
-conexion.end();
+    reader.readAsDataURL(e.target.files[0])
+   }else{
+    img.src = defaultFile;
+   }
+} );
